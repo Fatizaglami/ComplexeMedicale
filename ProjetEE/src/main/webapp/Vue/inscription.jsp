@@ -1,0 +1,98 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>Login</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <div class="forms-container">
+  
+       <!-- Sign In -->
+  
+     <div class="signin-signup">
+        <form action="#" class="sign-in-form">
+         <h2 class="title">Sign Up</h2>
+         <div class="input-field">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Username" />
+         </div>
+         <div class="input-field">
+          <i class="fas fa-envelope"></i>
+          <input type="email" placeholder="Email" />
+         </div>
+         <div class="input-field">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="Password" />
+         </div>
+         <!--  
+         <div class="radiobtn">
+  <label class="form-control">
+    <input type="radio" name="radio" checked >
+    Docteur
+  </label>
+
+  <label class="form-control">
+    <input type="radio" name="radio" >
+    Patient
+  </label>
+
+</div> -->
+           <input type="submit" class="btn solid"  value="Sign up"/>
+         
+           <p class="social-text">Or Sign up with social platforms</p>
+           <div class="social-media">
+           <a href="#" class="social-icon">
+           <i class="fab fa-facebook-f"></i>
+           </a> 
+           <a href="#" class="social-icon">
+           <i class="fab fa-twitter"></i>
+           </a>  
+           <a href="#" class="social-icon">
+           <i class="fab fa-google"></i>
+           </a>  
+           <a href="#" class="social-icon">
+           <i class="fab fa-linkedin"></i>
+           </a>         
+              </div>
+        </form>
+     </div>
+     
+  </div>
+    <div class="panels-container">
+       <div class="panel left-panel">
+        <div class="content">
+        <h3>Go to login page </h3>
+        <p> Welcome to the app of miola students,</br> 
+        this application is developed in the context of the JEE project,</br> 
+         by the students Zaglami fatima zahra & Elfahsi nouhaila.</p>
+         <a href="login.jsp">
+         <button class="btn transparent" id="sign-in-button">Sign In</button></a>
+        </div>
+        <img src="img/register.svg" alt="" class="image" />
+      </div>
+    
+   <!--    <div class="panel right-panel">
+        <div class="content">
+        <h3>One Of Us</h3>
+        <p> Welcome to the app of miola students, 
+        this application is developed in the context of the JEE project,
+         by the students Zaglami fatima zahra & Elfahsi nouhaila.</p>
+         
+         <button class="btn transparent" id="sign-in-button">Sign In</button>
+        </div>
+        <img src="img/register.svg" alt="" class="image" />
+      </div>
+     --> 
+    </div>
+  
+
+</div>
+ <script type="text/javascript" src="app.js" ></script>
+  
+</body>
+</html>
